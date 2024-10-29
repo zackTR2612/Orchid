@@ -1,0 +1,54 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+  }
+  
+  .card {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 10px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+  }
+  .img{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+  }
+  .orchid-img {
+    width: 100%; 
+    height: 100%;
+  }
+  
+  .name {
+    margin: 10px 0; 
+  }
+  
+
+  .detail-button {
+    width: 100%; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    transform: translate(-3.4%, 25%);
+  }
+  
+  .detail-button:hover {
+    background-color: #0056b3; 
+  }
+
+  .orchid-gallery-title {
+    color: black; 
+  }

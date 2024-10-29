@@ -1,0 +1,16 @@
+.container-fluid{
+    width: 98.4vw;
+    height: 92.2vh;
+    display: grid;
+    justify-items: center;
+    place-items: center;
+}
+.custome-container{
+    height: 80% ;
+}
+.button-1{
+    margin: 1%;
+    margin-top: 3%;
+    justify-self: end;
+    transform: translate(0%,0%);
+}

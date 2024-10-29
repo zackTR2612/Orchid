@@ -1,0 +1,10 @@
+.app-container.light {
+    background-color: white;
+    color: black;
+  }
+  
+  .app-container.dark {
+    background-color: black;
+    color: white;
+  }
+  

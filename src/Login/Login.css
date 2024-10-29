@@ -1,0 +1,31 @@
+.container-fluid{
+    width: 98.4vw;
+    height: 92.2vh;
+    display: grid;
+    justify-items: center;
+    place-items: center;
+}
+.form-name{
+    text-align: center;
+}
+.custom-container{
+    height: auto;
+    background-color: white;
+    width: 30%;
+}
+.form-control{
+    margin-top: 2%;
+}
+.button{
+    margin: 1%;
+    margin-top: 3%;
+    justify-self: end;
+    transform: translate(0%,0%);
+}
+.form-group{
+    transform: translate(0%,0%);
+    width: 90%;
+}
+.gg-button{
+    transform: translate(0%,-110%);
+}

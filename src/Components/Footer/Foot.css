@@ -1,0 +1,14 @@
+.footer {
+    background-color: white; 
+    color: black; 
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer.dark {
+    background-color: black; 
+  }

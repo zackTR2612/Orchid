@@ -1,0 +1,75 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.orchid-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.orchid-img {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.orchid-img img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.orchid-detail {
+  flex: 2;
+}
+
+.orchid-name {
+  font-size: 2rem;
+  color: #2c3e50; 
+}
+
+.orchid-special {
+  font-size: 1.5rem;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.category-rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.orchid-category,
+.orchid-rating,
+.orchid-origin,
+.orchid-color,
+.orchid-price {
+  margin: 10px 0;
+  color:black;
+  text-align: center;
+}
+
+.orchid-info h3 {
+  font-size: 1rem;
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+.video-title {
+  transition: color 0.3s ease;
+}
+
+.text-light {
+  color: #ffffff !important; 
+}
+
+.text-dark {
+  color: #000000 !important; 
+}
